@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            border-bottom: 3px solid red;
+            position: relative;
+            align-items: center;
+
+        }
+
+        li {
+            width: 150px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        span {
+            position: absolute;
+            width: 150px;
+            height: 70px;
+            background: pink;
+            z-index: -1;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <span></span>
+    </ul>
+    <script src="jq/jq.js"></script>
+    <script src="jq/test.js"></script>
+</body>
+
+</html>

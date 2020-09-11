@@ -1,0 +1,1 @@
+$('li').on('click',function(){$('span').animate({left:$(this).index()*150})})
